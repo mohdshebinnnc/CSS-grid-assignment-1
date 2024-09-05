@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.individualcard{
+    
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 70%;
+    padding: 40px 30px ;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.toptext>h2{
+    font-size: 20px;
+}
+.toptext>p{
+    color: darkgoldenrod;
+}
+.toptext{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    font-weight: 600;
+}
+.captiontext{
+    color: gray;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 10px;
+}
+.mainParentGrid{
+    display: flex;
+    align-items: center;
+    height: 95vh;
+}
+.grandparent{
+        display: grid;
+        place-items: center;
+        align-items: center;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 30px;
+}
+
+
